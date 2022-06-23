@@ -111,6 +111,26 @@
             <?php } ?>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container footer-container">
+            <div class="left-footer">
+                <a href="#">Google</a>
+                <a href="#">About Google</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+            <div class="right-footer">
+            <i class="fa-solid fa-language"></i>
+            <form >
+                <select id="lang">
+                    <option value="Italian">Italian</option>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                </select>
+            </form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
