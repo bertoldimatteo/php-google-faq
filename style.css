@@ -37,6 +37,9 @@ p, ol {
     width: 25px;
     color: #5f6368;
 }
+hr {
+    border-top: 1px solid rgba(151,151,151,.5);
+}
 /*---------------
     HEADER
 ----------------*/
@@ -90,4 +93,16 @@ navbar ul {
 a {
     text-decoration: none;
     color: #3367d6;
+}
+/*---------------
+    FOOTER
+----------------*/
+
+/*---------------
+    HOVER
+----------------*/
+.navbar li a:hover  {
+    color: #3367D6;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #3367D6;
 }
