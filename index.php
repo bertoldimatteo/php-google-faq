@@ -19,6 +19,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>FAQ-Privacy & Term - Google</title>
 </head>
 <body>
@@ -30,7 +31,11 @@
     </header>
 
     <main class="container">
-            
+            <?php foreach($policy as $infoPolicy){?>
+                <?php foreach($infoPolicy as $info){?>
+                    <?php echo $info ?>
+                <?php } ?>
+            <?php } ?>
     </main>
 
     <footer></footer>

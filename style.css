@@ -7,3 +7,9 @@
     max-width: 1280px;
     margin: auto;
 }
+h2 {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 30px;
+}
