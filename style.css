@@ -21,6 +21,10 @@ h2 {
 h3 {
     font-size: 20px;
 }
+span {
+    font-size: 1.375rem;
+    color: #5f6368;
+}
 p, ol, li {
     margin-bottom: 15px;
     font-size: .8438rem;
@@ -29,9 +33,44 @@ p, ol, li {
 p, ol {
     margin-bottom: 30px;
 }
+.icon-menu {
+    width: 25px;
+    color: #5f6368;
+}
 /*---------------
     HEADER
 ----------------*/
+.padding-section {
+    padding: 15px 15px 0 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.left-navbar, .right-navbar {
+    display: flex;
+    align-items: center;
+}
+.left-navbar > *, .right-navbar > * {
+    margin: 0 5px;
+}
+.logo-container {
+    padding-top: 10px;
+    margin: 0;
+}
+navbar ul {
+    display: flex;
+    margin-top: 10px;
+}
+.navbar li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+.navbar li a {
+    color: #5f6368;
+    font-size: .9375rem;
+    font-weight: 600;
+}
 /*---------------
     MAIN
 ----------------*/
