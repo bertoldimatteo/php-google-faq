@@ -29,7 +29,9 @@
         </nav>
     </header>
 
-    <main></main>
+    <main class="container">
+            
+    </main>
 
     <footer></footer>
 </body>
